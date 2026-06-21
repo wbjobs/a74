@@ -1,0 +1,7 @@
+RLC Series Circuit - Complex Frequency Test
+* RLC circuit with complex frequency s = sigma + j*omega
+V1 1 0 DC 0 AC 10 0
+R1 1 2 100
+L1 2 3 1e-3
+C1 3 0 1e-6
+.ac sig 100 10000

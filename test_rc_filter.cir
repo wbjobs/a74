@@ -1,0 +1,6 @@
+RC Low-pass Filter - AC Analysis
+* First-order RC low-pass filter
+V1 1 0 DC 0 AC 1 0
+R1 1 2 1000
+C1 2 0 1e-6
+.ac single 1000

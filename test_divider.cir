@@ -1,0 +1,6 @@
+Simple Resistive Divider - DC Test
+* Voltage divider with two resistors
+V1 1 0 DC 0 AC 10 0
+R1 1 2 1000
+R2 2 0 1000
+.ac sig 0 0
