@@ -1,0 +1,8 @@
+Test Non-Convergence - Debug Output Test
+* Simple circuit to test Newton-Raphson debug output
+V1 1 0 DC 0 AC 1 0
+R1 1 2 1000
+C1 2 0 1e-6
+.ac single 1000
+.options newton_maxiter 3
+.options newton_tol 1e-20

@@ -1,0 +1,8 @@
+CCC Test - Current Controlled Current Source
+* CCC with current gain 10
+V1 1 0 DC 0 AC 1 0
+R1 1 2 100
+Vm 2 0 DC 0 AC 0 0
+F1 3 0 Vm 10
+R2 3 0 100
+.ac sig 0 0

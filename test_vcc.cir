@@ -1,0 +1,7 @@
+VCC Test - Voltage Controlled Current Source
+* VCC with gain 0.01 S (transconductance)
+V1 1 0 DC 0 AC 5 0
+R1 1 0 1000
+G1 2 0 1 0 0.01
+R2 2 0 500
+.ac sig 0 0

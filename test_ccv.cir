@@ -1,0 +1,8 @@
+CCV Test - Current Controlled Voltage Source
+* CCV with transresistance gain 100 ohms
+V1 1 0 DC 0 AC 1 0
+R1 1 2 1000
+Vm 2 0 DC 0 AC 0 0
+H1 3 0 Vm 100
+R2 3 0 10000
+.ac sig 0 0

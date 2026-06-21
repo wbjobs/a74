@@ -1,0 +1,11 @@
+Mixed Circuit - Multiple Dependent Sources
+* Op-amp style circuit with VCV and resistors
+V1 1 0 DC 0 AC 0.1 0
+R1 1 2 10000
+R2 2 0 10000
+E1 3 0 2 0 100
+R3 3 4 1000
+C1 4 0 1e-6
+.ac single 1000
+.options newton_maxiter 100
+.options newton_tol 1e-8
