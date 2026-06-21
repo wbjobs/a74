@@ -1,0 +1,6 @@
+Sinusoidal Response - Transient Test
+* RC filter with sine wave input
+V1 1 0 SIN V0=0 Vamp=1 freq=1000 phase=0
+R1 1 2 1000
+C1 2 0 1e-6
+.tran 1e-5 5e-3

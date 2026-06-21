@@ -1,0 +1,7 @@
+RLC Series Circuit - Step Response
+* RLC circuit with step input - underdamped response
+V1 1 0 STEP t0=0 V0=0 V1=1
+R1 1 2 10
+L1 2 3 1e-3
+C1 3 0 1e-6
+.tran 1e-6 10e-3

@@ -1,0 +1,6 @@
+RC Step Response - Transient Test
+* RC low-pass filter with step input
+V1 1 0 STEP t0=0 V0=0 V1=1
+R1 1 2 1000
+C1 2 0 1e-6
+.tran 1e-6 5e-3

@@ -1,0 +1,6 @@
+RL Step Response - Transient Test
+* RL circuit with step input
+V1 1 0 STEP t0=0 V0=0 V1=10
+R1 1 2 100
+L1 2 0 1e-3
+.tran 1e-6 5e-3
